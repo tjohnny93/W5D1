@@ -5,17 +5,17 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-  // margin:
-  // padding:
-  // border:
-  // outline:
-  // font:
-  // color:
-  // text-align:
-  // text-decoration:
-  // vertical-align:
-  // box-sizing:
-  // background:
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+  outline: 0;
+  font: serif;
+  color: black;  
+  text-align: left;
+  text-decoration: none;
+  vertical-align: top;
+  box-sizing: inherit;
+  background: white;
 }
 
 ol, ul {
@@ -23,9 +23,9 @@ ol, ul {
 }
 
 img {
-  // display:
-  // width:
-  // height:
+  display: block;
+  width: 100%;
+  height: inherit;
 }
 
 input[type="password"],
@@ -45,7 +45,7 @@ button {
 
 button,
 input[type="submit"] {
-  // cursor:
+  cursor: pointer;
 }
 
 /* Clearfix */
